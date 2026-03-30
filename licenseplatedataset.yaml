@@ -1,0 +1,7 @@
+path: "C:\\Users\\Meliimoon\\Documents\\Concordia\\Grad\\Winter 2026\\COMP6341\\project\\ProjectCode\\dataset"
+
+train: images/train
+val: images/val
+
+names:
+  0: license_plate
