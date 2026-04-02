@@ -5,24 +5,31 @@ from ultralytics import YOLO
 
 if __name__ == "__main__": # Only run the code below if this script is executed directly (not imported as a module)
 
+    # Added argument parser to take file paths as command line arguments. 
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--input_dir", 
                         type=str,
-                        default="",
-
+                        dest="input_dir",
                         help="Input directory containing images to be cropped")
     parser.add_argument("--output_dir", 
+                        type=str,
+                        dest="output_dir",
                         help="Output directory to save cropped images")
+    parser.add_argument("--model_path",
+                        type=str,
+                        dest="model_path",
+                        help="Path to the trained YOLOv8 model weights")
 
+    # Parse the command line arguments
     args = parser.parse_args()
+    input_directory = args.input_dir
+    output_directory = args.output_dir
+    model_path = args.model_path
 
     # Load in the trained model 
     # File path created automatically by the training process of YOLOv8
-    model = YOLO(r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\runs\detect\license_plate_model\weights\best.pt")
-
-    input_directory = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\dataset\images\val"
-    output_directory = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\cropped_plates"
+    model = YOLO(model_path)
 
     os.makedirs(output_directory, exist_ok=True)
 
@@ -32,11 +39,11 @@ if __name__ == "__main__": # Only run the code below if this script is executed 
             image_path = os.path.join(input_directory, filename)
             img = cv2.imread(image_path)
 
-            results = model(image_path)
-            # Or can do:
-            #    results = model(image_path, conf=0.5) # directly sets confidence threshold for detection, so only detections with conf >= 0.5 will be returned
+            results = model(img)
+            # OR:
+            #results = model(img, conf=0.5) # directly sets confidence threshold for detection, so only detections with conf >= 0.5 will be returned
             # Then can remove the confidence check in the loop below
-            #    for i, box in enumerate(results[0].boxes.xyxy):
+            #for i, box in enumerate(results[0].boxes.xyxy):
             # Then remove the if statement
 
             # Loop through detected bounding boxes and crop the license plate regions
@@ -46,7 +53,7 @@ if __name__ == "__main__": # Only run the code below if this script is executed 
                 if conf < 0.5:
                     continue
 
-                x_min, y_min, x_max, y_max = map(int, box.tolist())
+                x_min, y_min, x_max, y_max = box.int().tolist()  # Convert to integers and unpack coordinates
 
                 # Pad the bounding box in case the detected box is too tight around the license plate
                 h, w, _ = img.shape
