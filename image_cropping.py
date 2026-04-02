@@ -1,37 +1,39 @@
 import os
 import cv2
+import argparse
 from ultralytics import YOLO
 
-# Perform license plate detection and cropping using our best trained YOLOv8 model, and save the cropped images to specified directories for both training and validation sets.
+if __name__ == "__main__": # Only run the code below if this script is executed directly (not imported as a module)
 
-# Load in the trained model 
-# File path created automatically by the training process of YOLOv8
-model = YOLO(r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\runs\detect\license_plate_model\weights\best.pt")
+    parser = argparse.ArgumentParser()
 
-input_directory_val = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\dataset\images\val"
-input_directory_train = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\dataset\images\train"
+    parser.add_argument("--input_dir", 
+                        type=str,
+                        default="",
 
-output_directory_val = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\cropped_plates\val"
-output_directory_train = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\cropped_plates\train"
+                        help="Input directory containing images to be cropped")
+    parser.add_argument("--output_dir", 
+                        help="Output directory to save cropped images")
 
-os.makedirs(output_directory_val, exist_ok=True)
-os.makedirs(output_directory_train, exist_ok=True)
+    args = parser.parse_args()
 
-directory_IOs = [
-    (input_directory_val, output_directory_val),
-    (input_directory_train, output_directory_train)
-]
+    # Load in the trained model 
+    # File path created automatically by the training process of YOLOv8
+    model = YOLO(r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\runs\detect\license_plate_model\weights\best.pt")
 
-# Loop through images in the train and validation set directories, perform detection, and save cropped license plate images
-for input_directory, output_directory in directory_IOs:
+    input_directory = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\dataset\images\val"
+    output_directory = r"C:\Users\Meliimoon\Documents\Concordia\Grad\Winter 2026\COMP6341\project\ProjectCode\cropped_plates"
+
+    os.makedirs(output_directory, exist_ok=True)
+
+    # Loop through images in the input dataset directory, perform detection, and save cropped license plate images
     for filename in os.listdir(input_directory):
         if filename.endswith((".jpg", ".png")):
             image_path = os.path.join(input_directory, filename)
             img = cv2.imread(image_path)
 
             results = model(image_path)
-            
-            # (Side note) Alternatively can do:
+            # Or can do:
             #    results = model(image_path, conf=0.5) # directly sets confidence threshold for detection, so only detections with conf >= 0.5 will be returned
             # Then can remove the confidence check in the loop below
             #    for i, box in enumerate(results[0].boxes.xyxy):
