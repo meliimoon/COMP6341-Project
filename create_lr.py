@@ -41,7 +41,7 @@ if __name__ == "__main__":
     for filename in tqdm(os.listdir(input_dir)):
         if filename.endswith((".jpg", ".png")):
             image_path = os.path.join(input_dir, filename)
-            output_path = os.path.join(output_dir, filename)
+            output_path = os.path.join(output_dir, f"{scale}xLR_{filename}")
             img = cv2.imread(image_path)
 
             h, w, c = img.shape
