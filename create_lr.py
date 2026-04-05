@@ -25,8 +25,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "-s",
         "--scale",
-        type=float,
-        default=2.0,
+        type=int,
+        default=2,
         dest="scale",
         help="the down-sampling scale (if not specified, will use 2x scale)",
     )
@@ -47,7 +47,7 @@ if __name__ == "__main__":
             h, w, c = img.shape
 
             print(f"Processing {filename} with original size: {img.shape}")
-            lr_img = cv2.resize(img, (w // int(scale), h // int(scale)), interpolation=cv2.INTER_CUBIC) # Down-sample the image using bicubic interpolation
+            lr_img = cv2.resize(img, (w // scale, h // scale), interpolation=cv2.INTER_CUBIC) # Down-sample the image using bicubic interpolation
 
             cv2.imwrite(output_path, lr_img)
             print(f"Saved LR image to {output_path} with size: {lr_img.shape}")
