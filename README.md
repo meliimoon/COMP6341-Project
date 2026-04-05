@@ -7,6 +7,7 @@ The cropped images are then downsampled and passed to the *[SR model]* [...]
 
 ## Requirements
 pip install ultralytics \
+pip install super-image \
 pip install opencv-python \
 pip install matplotlib \
 pip install tqdm \
