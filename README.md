@@ -14,6 +14,7 @@ pip install tqdm \
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126 \
 or (depending on CUDA version) \
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130 \
+pip install super-image \
 [...]
 
 ## How to Use
