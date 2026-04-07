@@ -8,6 +8,12 @@ The cropped images are then downsampled and passed to the EDSR model to perform 
 ![Comparison of original, LR, and SR images](images_for_README/OG-LR-SR_comparison.png)
 These images are then passed to the fast-plate-OCR model for text recognition. The script will output the predicted characters of a license plate of a given image.
 
+<br>
+
+**Project pipeline and dataflow diagram:** 
+
+![Project pipeline diagram](images_for_README/comp6341project_pipeline.png)
+
 ## Requirements
 pip install ultralytics \
 pip install super-image \
