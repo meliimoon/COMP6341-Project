@@ -69,7 +69,7 @@ if __name__ == "__main__":
     for file in input_imgs:
         pred = model.run(file)[0].plate
         filename = os.path.basename(file)
-        filename = re.sub(r'^.*?xLR_', '', filename)
+        gt_filename = re.sub(r'^.*?xLR_', '', filename)
         
         print(f"Detected plate for {file}: {pred}")
 
@@ -79,8 +79,8 @@ if __name__ == "__main__":
 
         if args.ground_truth_file is not None:
             # Compare the detected plate with the ground truth plate and calculate character accuracy
-            if filename in gt_dict:
-                gt_plate = gt_dict[filename]
+            if gt_filename in gt_dict:
+                gt_plate = gt_dict[gt_filename]
                 accuracy, lev_dist = char_accuracy(pred, gt_plate)
                 print(f"Ground truth plate: {gt_plate}, Levenshtein distance: {lev_dist}, Character accuracy: {accuracy:.2%}")
 

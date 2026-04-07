@@ -1,642 +1,642 @@
 {
     "results": {
-        "000f52302c1341eb.jpg_plate_0.jpg": {
+        "2xLR_000f52302c1341eb.jpg_plate_0.jpg": {
             "prediction": "PGC1406N",
             "ground_truth": "PGC1406N",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "00b6f96c840767fa.jpg_plate_0.jpg": {
+        "2xLR_00b6f96c840767fa.jpg_plate_0.jpg": {
             "prediction": "PAX44",
             "ground_truth": "PAX44",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "00ceeec7002bace0.jpg_plate_0.jpg": {
+        "2xLR_00ceeec7002bace0.jpg_plate_0.jpg": {
             "prediction": "1594DRM",
             "ground_truth": "1594DRM",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "00d763761e47f723.jpg_plate_0.jpg": {
+        "2xLR_00d763761e47f723.jpg_plate_0.jpg": {
             "prediction": "PWU977",
             "ground_truth": "PWU977",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "00e4cd60e84c0463.jpg_plate_0.jpg": {
+        "2xLR_00e4cd60e84c0463.jpg_plate_0.jpg": {
             "prediction": "W827PFB",
             "ground_truth": "W827PFB",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "00e8e5e79255536f.jpg_plate_0.jpg": {
+        "2xLR_00e8e5e79255536f.jpg_plate_0.jpg": {
             "prediction": "CNK06N",
             "ground_truth": "CNK06N",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "00fb62be50bc2353.jpg_plate_0.jpg": {
+        "2xLR_00fb62be50bc2353.jpg_plate_0.jpg": {
             "prediction": "YJ04CDU",
             "ground_truth": "YJ04CDU",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "010a0c44af2d077e.jpg_plate_0.jpg": {
+        "2xLR_010a0c44af2d077e.jpg_plate_0.jpg": {
             "prediction": "AV147VZ",
             "ground_truth": "AV147VZ",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "031dae4a52cf8aa1.jpg_plate_0.jpg": {
+        "2xLR_031dae4a52cf8aa1.jpg_plate_0.jpg": {
             "prediction": "1496BH",
             "ground_truth": "1496BH",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "039ff4c47d6d5415.jpg_plate_0.jpg": {
+        "2xLR_039ff4c47d6d5415.jpg_plate_0.jpg": {
             "prediction": "H269XGO",
             "ground_truth": "H269XGO",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "03d4a0482d180501.jpg_plate_1.jpg": {
+        "2xLR_03d4a0482d180501.jpg_plate_1.jpg": {
             "prediction": "__31",
             "ground_truth": "LG08KKP",
             "levenshtein_distance": 7,
             "character_accuracy": 0.0
         },
-        "0581358d6311a60b.jpg_plate_0.jpg": {
+        "2xLR_0581358d6311a60b.jpg_plate_0.jpg": {
             "prediction": "KEX912",
             "ground_truth": "OZK912",
             "levenshtein_distance": 3,
             "character_accuracy": 0.5
         },
-        "0670b29f926e5259.jpg_plate_1.jpg": {
+        "2xLR_0670b29f926e5259.jpg_plate_1.jpg": {
             "prediction": "FP5553M",
             "ground_truth": "6835CDY",
             "levenshtein_distance": 6,
             "character_accuracy": 0.1428571428571429
         },
-        "0693a49bad451a49.jpg_plate_0.jpg": {
+        "2xLR_0693a49bad451a49.jpg_plate_0.jpg": {
             "prediction": "TAM4464",
             "ground_truth": "EJ194WH",
             "levenshtein_distance": 6,
             "character_accuracy": 0.1428571428571429
         },
-        "0693a49bad451a49.jpg_plate_1.jpg": {
+        "2xLR_0693a49bad451a49.jpg_plate_1.jpg": {
             "prediction": "WW144EL",
             "ground_truth": "CW841WJ",
             "levenshtein_distance": 5,
             "character_accuracy": 0.2857142857142857
         },
-        "0ade5dbc0d8e78de.jpg_plate_0.jpg": {
+        "2xLR_0ade5dbc0d8e78de.jpg_plate_0.jpg": {
             "prediction": "LWJ663",
             "ground_truth": "LWJ663",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "0b08083a538269eb.jpg_plate_0.jpg": {
+        "2xLR_0b08083a538269eb.jpg_plate_0.jpg": {
             "prediction": "10380SL",
             "ground_truth": "10380SL",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "0ccb1f56a00a5280.jpg_plate_0.jpg": {
+        "2xLR_0ccb1f56a00a5280.jpg_plate_0.jpg": {
             "prediction": "442IWJD",
             "ground_truth": "X42IXJ0",
             "levenshtein_distance": 3,
             "character_accuracy": 0.5714285714285714
         },
-        "0d3eb38d0b288091.jpg_plate_0.jpg": {
+        "2xLR_0d3eb38d0b288091.jpg_plate_0.jpg": {
             "prediction": "GGT986",
             "ground_truth": "GGT986",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "0d8fb19757f8dfe7.jpg_plate_0.jpg": {
+        "2xLR_0d8fb19757f8dfe7.jpg_plate_0.jpg": {
             "prediction": "BAE4975",
             "ground_truth": "BAE4975",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "10f75658a63aedee.jpg_plate_0.jpg": {
+        "2xLR_10f75658a63aedee.jpg_plate_0.jpg": {
             "prediction": "HHFX557",
             "ground_truth": "HHFZ557",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "11e2baf8c788fa97.jpg_plate_0.jpg": {
+        "2xLR_11e2baf8c788fa97.jpg_plate_0.jpg": {
             "prediction": "CVD2273",
             "ground_truth": "CVD2273",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "1278b6189e6cbd7e.jpg_plate_0.jpg": {
+        "2xLR_1278b6189e6cbd7e.jpg_plate_0.jpg": {
             "prediction": "BF12YSZ",
             "ground_truth": "BF12YSZ",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "1572c809ddf6a8a1.jpg_plate_0.jpg": {
+        "2xLR_1572c809ddf6a8a1.jpg_plate_0.jpg": {
             "prediction": "E322FJB",
             "ground_truth": "E322FJB",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "15b5e9ac67ace629.jpg_plate_0.jpg": {
+        "2xLR_15b5e9ac67ace629.jpg_plate_0.jpg": {
             "prediction": "BH59UW",
             "ground_truth": "BH59UW",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "161e845ab67f290d.jpg_plate_0.jpg": {
+        "2xLR_161e845ab67f290d.jpg_plate_0.jpg": {
             "prediction": "4XXA130",
             "ground_truth": "4XXA130",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "18a2bb401ffb0bbc.jpg_plate_0.jpg": {
+        "2xLR_18a2bb401ffb0bbc.jpg_plate_0.jpg": {
             "prediction": "LAF5628",
             "ground_truth": "4MEM625",
             "levenshtein_distance": 5,
             "character_accuracy": 0.2857142857142857
         },
-        "19b6cb2b9cbf6634.jpg_plate_2.jpg": {
+        "2xLR_19b6cb2b9cbf6634.jpg_plate_2.jpg": {
             "prediction": "EFM7694",
             "ground_truth": "ERM7694",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "1ab3031461621354.jpg_plate_1.jpg": {
+        "2xLR_1ab3031461621354.jpg_plate_1.jpg": {
             "prediction": "200WRI",
             "ground_truth": "280WRI",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8333333333333334
         },
-        "1cb2554f0de62379.jpg_plate_0.jpg": {
+        "2xLR_1cb2554f0de62379.jpg_plate_0.jpg": {
             "prediction": "7D921",
             "ground_truth": "7BB210",
             "levenshtein_distance": 3,
             "character_accuracy": 0.5
         },
-        "1f410aeec40e96ac.jpg_plate_0.jpg": {
+        "2xLR_1f410aeec40e96ac.jpg_plate_0.jpg": {
             "prediction": "BNFB152",
             "ground_truth": "BNFB152",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "20b7b563236d6e66.jpg_plate_0.jpg": {
+        "2xLR_20b7b563236d6e66.jpg_plate_0.jpg": {
             "prediction": "6634HH",
             "ground_truth": "BPU65E",
             "levenshtein_distance": 6,
             "character_accuracy": 0.0
         },
-        "282dec3d0f36d111.jpg_plate_0.jpg": {
+        "2xLR_282dec3d0f36d111.jpg_plate_0.jpg": {
             "prediction": "NVZ81X",
             "ground_truth": "NVZ81X",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "2ba9f880cb3ab0ec.jpg_plate_0.jpg": {
+        "2xLR_2ba9f880cb3ab0ec.jpg_plate_0.jpg": {
             "prediction": "JLD910",
             "ground_truth": "JLD910",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "2be7fec54b43a742.jpg_plate_0.jpg": {
+        "2xLR_2be7fec54b43a742.jpg_plate_0.jpg": {
             "prediction": "5DBJ652",
             "ground_truth": "5DBJ652",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "2c602008a22124be.jpg_plate_0.jpg": {
+        "2xLR_2c602008a22124be.jpg_plate_0.jpg": {
             "prediction": "5513736",
             "ground_truth": "5513736",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "2dfa8702b2572913.jpg_plate_0.jpg": {
+        "2xLR_2dfa8702b2572913.jpg_plate_0.jpg": {
             "prediction": "6666336",
             "ground_truth": "6666336",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "2f229b8c5a47ce23.jpg_plate_0.jpg": {
+        "2xLR_2f229b8c5a47ce23.jpg_plate_0.jpg": {
             "prediction": "N26CWD",
             "ground_truth": "AD08CMO",
             "levenshtein_distance": 6,
             "character_accuracy": 0.1428571428571429
         },
-        "2f5a55336321e3ca.jpg_plate_0.jpg": {
+        "2xLR_2f5a55336321e3ca.jpg_plate_0.jpg": {
             "prediction": "DOQ400",
             "ground_truth": "DOQ400",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "30bdfc7e70793f4b.jpg_plate_0.jpg": {
+        "2xLR_30bdfc7e70793f4b.jpg_plate_0.jpg": {
             "prediction": "G28BVX",
             "ground_truth": "G28BVX",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "31a3b2b863bb7884.jpg_plate_0.jpg": {
+        "2xLR_31a3b2b863bb7884.jpg_plate_0.jpg": {
             "prediction": "6514537",
             "ground_truth": "6SAA537",
             "levenshtein_distance": 3,
             "character_accuracy": 0.5714285714285714
         },
-        "31de4a0f63d56b70.jpg_plate_0.jpg": {
+        "2xLR_31de4a0f63d56b70.jpg_plate_0.jpg": {
             "prediction": "79GFXL",
             "ground_truth": "79GFXL",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "35b2bab4ac070f46.jpg_plate_0.jpg": {
+        "2xLR_35b2bab4ac070f46.jpg_plate_0.jpg": {
             "prediction": "B13468",
             "ground_truth": "B13468",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "3780408a15c76092.jpg_plate_0.jpg": {
+        "2xLR_3780408a15c76092.jpg_plate_0.jpg": {
             "prediction": "297MCG",
             "ground_truth": "297MCG",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "3d3bfd7cd471236b.jpg_plate_0.jpg": {
+        "2xLR_3d3bfd7cd471236b.jpg_plate_0.jpg": {
             "prediction": "JDMPWR",
             "ground_truth": "JDMPWR",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "42ce804dbbc651b0.jpg_plate_0.jpg": {
+        "2xLR_42ce804dbbc651b0.jpg_plate_0.jpg": {
             "prediction": "S411RLB",
             "ground_truth": "S411RLB",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "42ce804dbbc651b0.jpg_plate_1.jpg": {
+        "2xLR_42ce804dbbc651b0.jpg_plate_1.jpg": {
             "prediction": "R533OGT",
             "ground_truth": "R5330GT",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "42ce804dbbc651b0.jpg_plate_3.jpg": {
+        "2xLR_42ce804dbbc651b0.jpg_plate_3.jpg": {
             "prediction": "5H1111",
             "ground_truth": "RY57HBE",
             "levenshtein_distance": 7,
             "character_accuracy": 0.0
         },
-        "438927bd4c9d962a.jpg_plate_0.jpg": {
+        "2xLR_438927bd4c9d962a.jpg_plate_0.jpg": {
             "prediction": "T349VHO",
             "ground_truth": "T349VHO",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "44df21d6584b44a3.jpg_plate_0.jpg": {
+        "2xLR_44df21d6584b44a3.jpg_plate_0.jpg": {
             "prediction": "G237OHR",
             "ground_truth": "G237OHR",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "44f94b1b322ffcab.jpg_plate_0.jpg": {
+        "2xLR_44f94b1b322ffcab.jpg_plate_0.jpg": {
             "prediction": "MFE717",
             "ground_truth": "WXX717",
             "levenshtein_distance": 3,
             "character_accuracy": 0.5
         },
-        "4e35749f7289b4f3.jpg_plate_0.jpg": {
+        "2xLR_4e35749f7289b4f3.jpg_plate_0.jpg": {
             "prediction": "JJU1521",
             "ground_truth": "JJU1521",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "4ed301590f14adf9.jpg_plate_1.jpg": {
+        "2xLR_4ed301590f14adf9.jpg_plate_1.jpg": {
             "prediction": "DKA8018",
             "ground_truth": "DXA8018",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "4f83766bc0fa553c.jpg_plate_0.jpg": {
+        "2xLR_4f83766bc0fa553c.jpg_plate_0.jpg": {
             "prediction": "KLO6470",
             "ground_truth": "KLO647O",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "50f09264e20c1439.jpg_plate_0.jpg": {
+        "2xLR_50f09264e20c1439.jpg_plate_0.jpg": {
             "prediction": "DP737SC",
             "ground_truth": "DP737SC",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "535bfa9b16100efe.jpg_plate_0.jpg": {
+        "2xLR_535bfa9b16100efe.jpg_plate_0.jpg": {
             "prediction": "FJ07CXA",
             "ground_truth": "FJ07CXA",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "57eed39c48c01fbc.jpg_plate_0.jpg": {
+        "2xLR_57eed39c48c01fbc.jpg_plate_0.jpg": {
             "prediction": "CTP87Y",
             "ground_truth": "CTP87Y",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "57eed39c48c01fbc.jpg_plate_1.jpg": {
+        "2xLR_57eed39c48c01fbc.jpg_plate_1.jpg": {
             "prediction": "LV11",
             "ground_truth": "217TVR",
             "levenshtein_distance": 6,
             "character_accuracy": 0.0
         },
-        "57f43f31d91ed6cc.jpg_plate_0.jpg": {
+        "2xLR_57f43f31d91ed6cc.jpg_plate_0.jpg": {
             "prediction": "PD2216",
             "ground_truth": "PD2216",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "5cbc2993f235cfa2.jpg_plate_0.jpg": {
+        "2xLR_5cbc2993f235cfa2.jpg_plate_0.jpg": {
             "prediction": "LJ41131",
             "ground_truth": "LJ41131",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "5e25b3ec0fd9d1be.jpg_plate_0.jpg": {
+        "2xLR_5e25b3ec0fd9d1be.jpg_plate_0.jpg": {
             "prediction": "SY54XJW",
             "ground_truth": "SY54XJW",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "5f2fc389b69910f7.jpg_plate_0.jpg": {
+        "2xLR_5f2fc389b69910f7.jpg_plate_0.jpg": {
             "prediction": "6096BGV",
             "ground_truth": "6096BGV",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "5f3ae08c464d1ff8.jpg_plate_0.jpg": {
+        "2xLR_5f3ae08c464d1ff8.jpg_plate_0.jpg": {
             "prediction": "5SJD283",
             "ground_truth": "5SJD283",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "65d36f36af840749.jpg_plate_0.jpg": {
+        "2xLR_65d36f36af840749.jpg_plate_0.jpg": {
             "prediction": "ASU1808",
             "ground_truth": "ASU1838",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "6737d7f3c4e3a8d7.jpg_plate_0.jpg": {
+        "2xLR_6737d7f3c4e3a8d7.jpg_plate_0.jpg": {
             "prediction": "5G90743",
             "ground_truth": "5G90743",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "681403c74dcef4e1.jpg_plate_0.jpg": {
+        "2xLR_681403c74dcef4e1.jpg_plate_0.jpg": {
             "prediction": "MEXC183",
             "ground_truth": "MEXC183",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "685e488bb1cc3ed1.jpg_plate_0.jpg": {
+        "2xLR_685e488bb1cc3ed1.jpg_plate_0.jpg": {
             "prediction": "WWW1337",
             "ground_truth": "WWW1337",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "687aa70ea5732fc5.jpg_plate_1.jpg": {
+        "2xLR_687aa70ea5732fc5.jpg_plate_1.jpg": {
             "prediction": "106JHC",
             "ground_truth": "106JHC",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "69fc981a483e2b22.jpg_plate_0.jpg": {
+        "2xLR_69fc981a483e2b22.jpg_plate_0.jpg": {
             "prediction": "APK50A",
             "ground_truth": "APK50A",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6b0d15378409aa8c.jpg_plate_0.jpg": {
+        "2xLR_6b0d15378409aa8c.jpg_plate_0.jpg": {
             "prediction": "AV05EJD",
             "ground_truth": "AV05EJD",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6b7ecda76060893e.jpg_plate_0.jpg": {
+        "2xLR_6b7ecda76060893e.jpg_plate_0.jpg": {
             "prediction": "X599EGK",
             "ground_truth": "X599EGK",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6d7a27189aa589df.jpg_plate_0.jpg": {
+        "2xLR_6d7a27189aa589df.jpg_plate_0.jpg": {
             "prediction": "EYD236",
             "ground_truth": "EYD236",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6e2a8d5a176af75e.jpg_plate_0.jpg": {
+        "2xLR_6e2a8d5a176af75e.jpg_plate_0.jpg": {
             "prediction": "CRW866",
             "ground_truth": "CRW866",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6e50881e36a1bd2f.jpg_plate_0.jpg": {
+        "2xLR_6e50881e36a1bd2f.jpg_plate_0.jpg": {
             "prediction": "AXWV973",
             "ground_truth": "AXWV973",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6f6e6ee0f2f3e68a.jpg_plate_0.jpg": {
+        "2xLR_6f6e6ee0f2f3e68a.jpg_plate_0.jpg": {
             "prediction": "AX3827",
             "ground_truth": "AX3827",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "6f9ab0c2bcee6b78.jpg_plate_0.jpg": {
+        "2xLR_6f9ab0c2bcee6b78.jpg_plate_0.jpg": {
             "prediction": "BJYJ331",
             "ground_truth": "BJYJ331",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "707c0c0f4263a281.jpg_plate_0.jpg": {
+        "2xLR_707c0c0f4263a281.jpg_plate_0.jpg": {
             "prediction": "1SL0544",
             "ground_truth": "LUX1616",
             "levenshtein_distance": 7,
             "character_accuracy": 0.0
         },
-        "70b20c6064951e91.jpg_plate_0.jpg": {
+        "2xLR_70b20c6064951e91.jpg_plate_0.jpg": {
             "prediction": "HWG0121",
             "ground_truth": "HWG0121",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "715eee4f18e49142.jpg_plate_0.jpg": {
+        "2xLR_715eee4f18e49142.jpg_plate_0.jpg": {
             "prediction": "7AGN641",
             "ground_truth": "7AGN641",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "72a50835c7daacaa.jpg_plate_0.jpg": {
+        "2xLR_72a50835c7daacaa.jpg_plate_0.jpg": {
             "prediction": "WF51ZEK",
             "ground_truth": "WF51ZCK",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "72a50835c7daacaa.jpg_plate_1.jpg": {
+        "2xLR_72a50835c7daacaa.jpg_plate_1.jpg": {
             "prediction": "WK53FDD",
             "ground_truth": "WK53FBD",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "760f9e490bc4ec40.jpg_plate_0.jpg": {
+        "2xLR_760f9e490bc4ec40.jpg_plate_0.jpg": {
             "prediction": "CTR36J8",
             "ground_truth": "CTR36J8",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "7732eef669d821dd.jpg_plate_0.jpg": {
+        "2xLR_7732eef669d821dd.jpg_plate_0.jpg": {
             "prediction": "97XZNN",
             "ground_truth": "97XZNN",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "7a928eba8d23ebdd.jpg_plate_0.jpg": {
+        "2xLR_7a928eba8d23ebdd.jpg_plate_0.jpg": {
             "prediction": "GE558896",
             "ground_truth": "GE58896",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "7ac221d4f1cfa9ba.jpg_plate_0.jpg": {
+        "2xLR_7ac221d4f1cfa9ba.jpg_plate_0.jpg": {
             "prediction": "JKK2638",
             "ground_truth": "JKK2638",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "7b85570d2da3a016.jpg_plate_0.jpg": {
+        "2xLR_7b85570d2da3a016.jpg_plate_0.jpg": {
             "prediction": "5XPZ872",
             "ground_truth": "5XPZ872",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "7b85570d2da3a016.jpg_plate_1.jpg": {
+        "2xLR_7b85570d2da3a016.jpg_plate_1.jpg": {
             "prediction": "5HYP863",
             "ground_truth": "5HYP863",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "8118b1ace832b9e5.jpg_plate_1.jpg": {
+        "2xLR_8118b1ace832b9e5.jpg_plate_1.jpg": {
             "prediction": "CRW866",
             "ground_truth": "CRW866",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "84fddbb1fac646f8.jpg_plate_0.jpg": {
+        "2xLR_84fddbb1fac646f8.jpg_plate_0.jpg": {
             "prediction": "AH53FD",
             "ground_truth": "AH53FD",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "88bce92e47909b0f.jpg_plate_0.jpg": {
+        "2xLR_88bce92e47909b0f.jpg_plate_0.jpg": {
             "prediction": "SE5080DC",
             "ground_truth": "SE5080DC",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "95a8ac8ce1549a05.jpg_plate_0.jpg": {
+        "2xLR_95a8ac8ce1549a05.jpg_plate_0.jpg": {
             "prediction": "BD80710",
             "ground_truth": "8D80210",
             "levenshtein_distance": 2,
             "character_accuracy": 0.7142857142857143
         },
-        "967c7fac25d65806.jpg_plate_0.jpg": {
+        "2xLR_967c7fac25d65806.jpg_plate_0.jpg": {
             "prediction": "YNZ73N",
             "ground_truth": "YNZ73N",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "9874e25925386559.jpg_plate_0.jpg": {
+        "2xLR_9874e25925386559.jpg_plate_0.jpg": {
             "prediction": "AE73JM",
             "ground_truth": "AE73JM",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "98d1fe67967eba7e.jpg_plate_0.jpg": {
+        "2xLR_98d1fe67967eba7e.jpg_plate_0.jpg": {
             "prediction": "VFV0FV",
             "ground_truth": "XP10FV",
             "levenshtein_distance": 3,
             "character_accuracy": 0.5
         },
-        "994ab24defdaaec6.jpg_plate_0.jpg": {
+        "2xLR_994ab24defdaaec6.jpg_plate_0.jpg": {
             "prediction": "80DXZF",
             "ground_truth": "80DXZF",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "9e0056a0058748db.jpg_plate_0.jpg": {
+        "2xLR_9e0056a0058748db.jpg_plate_0.jpg": {
             "prediction": "5FRZ574",
             "ground_truth": "5RRZ574",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8571428571428572
         },
-        "9e6b9c01cf8d599b.jpg_plate_0.jpg": {
+        "2xLR_9e6b9c01cf8d599b.jpg_plate_0.jpg": {
             "prediction": "14HD11",
             "ground_truth": "704CRA38",
             "levenshtein_distance": 7,
             "character_accuracy": 0.125
         },
-        "9e6b9c01cf8d599b.jpg_plate_1.jpg": {
+        "2xLR_9e6b9c01cf8d599b.jpg_plate_1.jpg": {
             "prediction": "53WN1135",
             "ground_truth": "VS343330",
             "levenshtein_distance": 7,
             "character_accuracy": 0.125
         },
-        "9ea2fe3d89b1f73f.jpg_plate_0.jpg": {
+        "2xLR_9ea2fe3d89b1f73f.jpg_plate_0.jpg": {
             "prediction": "1158WS11",
             "ground_truth": "1156XP94",
             "levenshtein_distance": 5,
             "character_accuracy": 0.375
         },
-        "a38025f0aece35d8.jpg_plate_0.jpg": {
+        "2xLR_a38025f0aece35d8.jpg_plate_0.jpg": {
             "prediction": "693DHA",
             "ground_truth": "660JYR",
             "levenshtein_distance": 5,
             "character_accuracy": 0.16666666666666663
         },
-        "a38025f0aece35d8.jpg_plate_1.jpg": {
+        "2xLR_a38025f0aece35d8.jpg_plate_1.jpg": {
             "prediction": "BEEBFJP",
             "ground_truth": "BEEBEEP",
             "levenshtein_distance": 2,
             "character_accuracy": 0.7142857142857143
         },
-        "a572d78778c511a9.jpg_plate_0.jpg": {
+        "2xLR_a572d78778c511a9.jpg_plate_0.jpg": {
             "prediction": "UL642",
             "ground_truth": "UL642",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "a70acbbf47e5cb49.jpg_plate_0.jpg": {
+        "2xLR_a70acbbf47e5cb49.jpg_plate_0.jpg": {
             "prediction": "5522GNK",
             "ground_truth": "5522GNK",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "a74d9ed0501dc8b6.jpg_plate_0.jpg": {
+        "2xLR_a74d9ed0501dc8b6.jpg_plate_0.jpg": {
             "prediction": "772XOQ",
             "ground_truth": "772XOQ",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "a79bbb58d731a188.jpg_plate_0.jpg": {
+        "2xLR_a79bbb58d731a188.jpg_plate_0.jpg": {
             "prediction": "227MSN",
             "ground_truth": "Z27MSN",
             "levenshtein_distance": 1,
             "character_accuracy": 0.8333333333333334
         },
-        "a8e196f6d609dba8.jpg_plate_0.jpg": {
+        "2xLR_a8e196f6d609dba8.jpg_plate_0.jpg": {
             "prediction": "7BC2938",
             "ground_truth": "7BC2938",
             "levenshtein_distance": 0,
             "character_accuracy": 1.0
         },
-        "fd9d11402a08127f.jpg_plate_0.jpg": {
+        "2xLR_fd9d11402a08127f.jpg_plate_0.jpg": {
             "prediction": "AHL622",
             "ground_truth": "AHL622",
             "levenshtein_distance": 0,
