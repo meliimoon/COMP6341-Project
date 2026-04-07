@@ -1,9 +1,12 @@
 # COMP6341-Project
 ## Project Overview
-*[WIP]* \
 This project incorporates three distinct models into a single cohesive pipeline that outputs the characters present in a license plate, given an input image of a vehicle with a plate visible. Our pipeline may also provide insight into the benefits of using super-resolution on low-resolution images for the task of character recognition, by toggling the super-resolution component.
-First, the YOLOv8 model is used to automatically detect the bounding boxes of license plates given an input image of a vehicle with a plate visible. Then, the pipeline crops the input image to the detected bounding box of the license plate. 
-The cropped images are then downsampled and passed to the EDSR model to perform super-resolution on a specified scale, matching that of the downsampling scale. [...]
+First, the YOLOv8 model is used to automatically detect the bounding boxes of license plates given an input image of a vehicle with a plate visible. 
+![5 Random YOLOv8 results](images_for_README/First-training-run_val5randoms.png)
+Then, the pipeline crops the input image to the detected bounding box of the license plate. 
+The cropped images are then downsampled and passed to the EDSR model to perform super-resolution on a specified scale, matching that of the downsampling scale. 
+![Comparison of original, LR, and SR images](images_for_README/OG-LR-SR_comparison.png)
+These images are then passed to the fast-plate-OCR model for text recognition. The script will output the predicted characters of a license plate of a given image.
 
 ## Requirements
 pip install ultralytics \
