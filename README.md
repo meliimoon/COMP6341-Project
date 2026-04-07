@@ -8,13 +8,15 @@ The cropped images are then downsampled and passed to the *[SR model]* [...]
 ## Requirements
 pip install ultralytics \
 pip install super-image \
+pip install fast-plate-ocr \
+pip install fast-plate-ocr[onnx-gpu] \
 pip install opencv-python \
 pip install matplotlib \
 pip install tqdm \
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126 \
 or (depending on CUDA version) \
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130 \
-pip install super-image \
+pip install python-Levenshtein \
 [...]
 
 ## How to Use
