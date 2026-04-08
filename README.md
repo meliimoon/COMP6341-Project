@@ -137,15 +137,15 @@ pip install python-Levenshtein
    python fplateOCR_txtRec.py [command line args]
    ```
 10. **Test a single image with a license plate present**:
-   - Run the our end-to-end script to execute our complete project pipeline on an image that has a visible license plate present to output the characters of the license plate.
-   - The file will detect and crop the license plate, perform optional super-resolution, and output the character sequence of the license plate
+   - Run our end-to-end script to execute our complete project pipeline on a single image that has a visible license plate present to output the characters of the license plate. If multiple license plates are visible in a single image, it will extract only the plate with the highest confidence score.
+   - The file will detect and crop the license plate, perform optional super-resolution, and output the character sequence of the license plate. If SR is used, the scaling factor is 2x.
    - Run the end-to-end script with the necessary command line arguments \
      &emsp; List of command line arguments & their default values (how our experiments were set up): \
-      	&emsp; &emsp; -i OR --input_dir, type=str \
+      	&emsp; &emsp; -i OR --input_img, type=str \
      	&emsp; &emsp; -sr OR --use_SR, action="store_true" *i.e. False by default, True only when used*
 
    ```bash
-   python end2end.py [command line args]
+   python end2end.py -i path/to/input_image --use_sr
    ```
 ## File Descriptions:
 ***best.pt***: *(Found in the yolov8 directory)* This file containing our fine-tuned YOLOv8n model's best training weights. 
