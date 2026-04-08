@@ -194,5 +194,3 @@ pip install python-Levenshtein
 &emsp;>***4x_edsr_loss_history.json***: Saved training loss history of the EDSR model fine-tuning on a 4x scale. \
 &emsp;>***4x_edsr_model_weights.pth***: Saved training weights of the EDSR model fine-tuning on a 4x scale. \
 &emsp;>***4x_edsr_training_curve.png***: Saved training loss curve of the EDSR model fine-tuning on a 4x scale.
-
-[...]
