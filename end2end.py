@@ -52,7 +52,7 @@ if __name__ == "__main__":
         print("No plates detected. Shutting down.")
         exit()
 
-    best_idx = results[0].boxes.conf.argmax()
+    best_idx = results[0].boxes.conf.argmax() # Take the license plate with the highest confidence score
     box = results[0].boxes.xyxy[best_idx]
     conf = results[0].boxes.conf[best_idx]
 
