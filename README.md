@@ -142,7 +142,7 @@ pip install python-Levenshtein
    - Run the end-to-end script with the necessary command line arguments \
      &emsp; List of command line arguments & their default values (how our experiments were set up): \
       	&emsp; &emsp; -i OR --input_dir, type=str \
-     	&emsp; &emsp; --perform_SR, action="store_true" *i.e. False by default, True only when used*
+     	&emsp; &emsp; -sr OR --use_SR, action="store_true" *i.e. False by default, True only when used*
 
    ```bash
    python end2end.py [command line args]
@@ -167,7 +167,7 @@ pip install python-Levenshtein
 
 ***fplateOCR_txtRec.py***: This file performs text recognition on the cropped license plate input images using the lightweight small fast-plate-OCR model. The script can optionally compute quantitative metrics (Levenshtein Distance) if provided the --ground_truth_file flag (see 'annotations.txt' for how to format the labels). If no ground truth file is provided, the script will simply read the characters from the cropped license plate and output it to a JSON file that is saved in the location where the file is being run by default (can optionally choose where the JSON file is saved using the '--output_dir' flag).
 
-***end2end.py***:
+***end2end.py***: This file processes a single image of a car with a license plate visible through the entire pipeline end-to-end in a single file. If multiple license plates are visible, it will crop and process the plate with the highest box score from the YOLOv8 model. Super-resolution can be toggled on or off.
 
 ***ocr_results_2xLR_val.json***: This file contains the predicted license plate characters for the 2x LR annotated validation dataset and the Levenshtein Distance quantitative metrics for each input as well as the average for the entire 107 annotated examples. 
 
